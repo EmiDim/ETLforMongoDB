@@ -1,0 +1,212 @@
+
+      <html>
+        <head>
+          <title>ETL Process Page</title> 
+        </head>  
+        <body>
+<table style='border:1px solid black; background-color:#D4E6F1'>
+<caption style='font-weight: bold; font-size: 20px;' >Customers Data</caption>
+<tr>
+<th>CustomerId</th><th>CustomerFullName</th><th>EmailAddress</th><th>ResidenceCity</th><th>ResidenceState</th><th>ResidencePostalCode</th><th>ResidenceCountry</th></tr>
+  <tr>
+<td>8840348</td>
+<td>John Quincy Smith</td>
+<td>MARCH4@example.COM</td>
+<td>Atlanta</td>
+<td>GA</td>
+<td>30318</td>
+<td>US</td>
+</tr>
+<td>8789365</td>
+<td>John Smith</td>
+<td>MARCH13@example.COM</td>
+<td>Atlanta</td>
+<td>GA</td>
+<td>30318</td>
+<td>US</td>
+</tr>
+<td>8841382</td>
+<td>John Reginald Grask</td>
+<td>john1@smartypig.com</td>
+<td>Atlanta</td>
+<td>GA</td>
+<td>30318</td>
+<td>US</td>
+</tr>
+<td>8846395</td>
+<td>John Smith</td>
+<td>MARCH31AB@example.com</td>
+<td>Atlanta</td>
+<td>GA</td>
+<td>30318</td>
+<td>US</td>
+</tr>
+<td>8890324</td>
+<td>John Smith</td>
+<td>mikeferrari3@gmail.com</td>
+<td>Atlanta</td>
+<td>GA</td>
+<td>30318</td>
+<td>US</td>
+</tr>
+	</table>
+<hr><table style='border:1px solid black; background-color:#FADBD8'>
+<caption style='font-weight: bold; font-size: 20px;' >Account Balances Data</caption>
+<tr>
+<th>CustomerId</th><th>AccountId</th><th>AccountNumber</th><th>AccountType</th><th>AccountBalance</th><th>EffectiveDate</th><th>IsPrimary</th><th>PrimaryCustomerId</th></tr>
+  <tr>
+<td>8789365</td>
+<td>8784174</td>
+<td>6494662</td>
+<td>Checking</td>
+<td>6.86</td>
+<td>2018-10-18 00:00:00</td>
+<td>True</td>
+<td>8789185</td>
+</tr>
+<td>8803351</td>
+<td>8804266</td>
+<td>6490185</td>
+<td>Checking</td>
+<td>360.86</td>
+<td>2018-10-18 00:00:00</td>
+<td>True</td>
+<td>8803281</td>
+</tr>
+<td>8837383</td>
+<td>8834324</td>
+<td>6492104</td>
+<td>Checking</td>
+<td>524.84</td>
+<td>2018-10-18 00:00:00</td>
+<td>True</td>
+<td>8837283</td>
+</tr>
+<td>8840348</td>
+<td>8844502</td>
+<td>6499827</td>
+<td>Checking</td>
+<td>1883.86</td>
+<td>2018-10-18 00:00:00</td>
+<td>True</td>
+<td>8840388</td>
+</tr>
+<td>8840361</td>
+<td>8844518</td>
+<td>6499889</td>
+<td>Checking</td>
+<td>284.8</td>
+<td>2018-10-18 00:00:00</td>
+<td>True</td>
+<td>8840481</td>
+</tr>
+<td>8841382</td>
+<td>8844187</td>
+<td>6491654</td>
+<td>Checking</td>
+<td>1798.89</td>
+<td>2018-10-18 00:00:00</td>
+<td>True</td>
+<td>8841082</td>
+</tr>
+<td>8846395</td>
+<td>8844127</td>
+<td>6494059</td>
+<td>Checking</td>
+<td>967.81</td>
+<td>2018-10-18 00:00:00</td>
+<td>True</td>
+<td>8846085</td>
+</tr>
+<td>8881308</td>
+<td>8884059</td>
+<td>6498597</td>
+<td>Checking</td>
+<td>17.81</td>
+<td>2018-10-18 00:00:00</td>
+<td>True</td>
+<td>8881088</td>
+</tr>
+<td>8890324</td>
+<td>8894756</td>
+<td>6499558</td>
+<td>Checking</td>
+<td>30.81</td>
+<td>2018-10-18 00:00:00</td>
+<td>True</td>
+<td>8890784</td>
+</tr>
+	</table>
+<hr><table style='border:1px solid black; background-color:#E7E1E5'>
+<caption style='font-weight: bold; font-size: 20px;' >Customer's Account Balances data</caption>
+<tr>
+<th>CustomerId</th><th>CustomerFullName</th><th>EmailAddress</th><th>ResidenceCity</th><th>ResidenceState</th><th>ResidencePostalCode</th><th>ResidenceCountry</th><th>AccountNumber</th><th>AccountType</th><th>AccountBalance</th><th>EffectiveDate</th></tr>
+  <tr>
+<td>8789365</td>
+<td>John Smith</td>
+<td>MARCH13@example.COM</td>
+<td>Atlanta</td>
+<td>GA</td>
+<td>30318</td>
+<td>US</td>
+<td>6494662</td>
+<td>Checking</td>
+<td>6.86</td>
+<td>2018-10-18 00:00:00</td>
+</tr>
+<td>8840348</td>
+<td>John Quincy Smith</td>
+<td>MARCH4@example.COM</td>
+<td>Atlanta</td>
+<td>GA</td>
+<td>30318</td>
+<td>US</td>
+<td>6499827</td>
+<td>Checking</td>
+<td>1883.86</td>
+<td>2018-10-18 00:00:00</td>
+</tr>
+<td>8841382</td>
+<td>John Reginald Grask</td>
+<td>john1@smartypig.com</td>
+<td>Atlanta</td>
+<td>GA</td>
+<td>30318</td>
+<td>US</td>
+<td>6491654</td>
+<td>Checking</td>
+<td>1798.89</td>
+<td>2018-10-18 00:00:00</td>
+</tr>
+<td>8846395</td>
+<td>John Smith</td>
+<td>MARCH31AB@example.com</td>
+<td>Atlanta</td>
+<td>GA</td>
+<td>30318</td>
+<td>US</td>
+<td>6494059</td>
+<td>Checking</td>
+<td>967.81</td>
+<td>2018-10-18 00:00:00</td>
+</tr>
+<td>8890324</td>
+<td>John Smith</td>
+<td>mikeferrari3@gmail.com</td>
+<td>Atlanta</td>
+<td>GA</td>
+<td>30318</td>
+<td>US</td>
+<td>6499558</td>
+<td>Checking</td>
+<td>30.81</td>
+<td>2018-10-18 00:00:00</td>
+</tr>
+	</table>
+<hr>	<table style='border:1px solid black; background-color:#E5E7E9;'>
+		<tr><th>ETL Process</th><th>DateTime</th><th>Status</th></tr>
+		<tr><td>Convert To HTML</td><td>2020-05-26 14:54:31.061860</td><td>Success</td></tr>
+	</table>
+    </body>
+      </html>
+      

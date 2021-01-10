@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{FE93857A-54C5-4E1C-A834-8089E6B49799}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\A06EmilijaDimikj.docx = Documents\A06EmilijaDimikj.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PythonScripts", "PythonScripts", "{B650F064-1115-4D89-AE47-7EBFBC3E367D}"
+	ProjectSection(SolutionItems) = preProject
+		PythonScripts\CommonFuncScript.py = PythonScripts\CommonFuncScript.py
+		PythonScripts\ExtractScript.py = PythonScripts\ExtractScript.py
+		PythonScripts\LoadScript.py = PythonScripts\LoadScript.py
+		PythonScripts\ReportScript.py = PythonScripts\ReportScript.py
+		PythonScripts\TransformScript.py = PythonScripts\TransformScript.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reports", "Reports", "{3E3880FA-9842-4698-822B-B5BE24EF765B}"
+	ProjectSection(SolutionItems) = preProject
+		Reports\ETLReport.html = Reports\ETLReport.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SourceData", "SourceData", "{B9898C8F-030B-4636-BA86-E883E750F9DB}"
+	ProjectSection(SolutionItems) = preProject
+		SourceData\AccountBalances.txt = SourceData\AccountBalances.txt
+		SourceData\Customer.xlsx = SourceData\Customer.xlsx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C81FC9E-8471-48DE-98F1-B0815BAB807F}
+	EndGlobalSection
+EndGlobal
