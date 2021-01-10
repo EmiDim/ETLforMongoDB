@@ -12,7 +12,7 @@ import pymongo
 
 def getMongoConnectionStr():
     # strConn = 'mongodb://localhost:27017'
-    strConn="mongodb+srv://admin:Bothell2018@cluster0-yogcb.azure.mongodb.net/test?retryWrites=true&w=majority"
+    strConn="mongodb+srv://admin:pass***@cluster0-yogcb.azure.mongodb.net/test?retryWrites=true&w=majority"
     try:
         objCon = pymongo.MongoClient(strConn)
         return strConn
